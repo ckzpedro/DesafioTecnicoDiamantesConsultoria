@@ -1,0 +1,44 @@
+.modal {
+    background-color: rgb(110, 110, 110);
+    width: 54.1rem;
+    height: 40.5rem;
+}
+
+.head {
+    background-color: black;
+    color: white;
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.store_name {
+    font-size: 2.5rem;
+}
+
+.title {
+    font-size: 1.2rem;
+}
+
+.button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.field {
+    font-size: 1.2rem;
+}

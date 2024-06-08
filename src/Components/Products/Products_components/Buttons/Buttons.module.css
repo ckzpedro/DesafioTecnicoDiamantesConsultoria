@@ -1,0 +1,13 @@
+.placeholder {
+    display: flex;
+    margin-top: 13rem;
+    gap: 130rem;
+    position: absolute;
+    margin-left: 10rem;
+}
+
+
+.btn {
+    cursor: pointer;
+    background-color: transparent;
+}

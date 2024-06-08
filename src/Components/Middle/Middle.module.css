@@ -1,0 +1,9 @@
+.placeholder {
+    background-color: black;
+    color: white;
+    font-size: 3.2rem;
+    height: 7.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
