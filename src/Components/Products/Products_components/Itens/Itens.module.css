@@ -1,0 +1,10 @@
+.placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.star {
+    color: rgb(239, 255, 67);
+}

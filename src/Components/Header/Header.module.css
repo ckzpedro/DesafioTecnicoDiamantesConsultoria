@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.8rem;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 2.8rem;
+}
+
+.searchbar {
+    width: 54.4rem;
+    height: 3.8rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    border: 0.1rem solid;
+}

@@ -1,0 +1,16 @@
+.body {
+    display: flex;
+    justify-content: space-around;
+    gap: 50.0rem;
+}
+
+.text {
+    font-size: 4.5rem;
+    margin-top: 10.4rem;
+}
+
+.infos {
+    display: flex;
+    margin-top: 3.9rem;
+    gap: 3.2rem;
+}
