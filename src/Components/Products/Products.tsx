@@ -1,13 +1,9 @@
 import Itens from "./Products_components/Itens/Itens";
-
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-
 import styles from './Products.module.css'
-
-import Pants from '@/../public/calca.png'
-import Shirt1 from '@/../public/camisa.png'
-import Shirt2 from '@/../public/camisa_2.png'
-import Coat from '@/../public/casaco.png'
+import Pants from '../../../public/calca.png'
+import Shirt1 from '../../../public/camisa.png'
+import Shirt2 from '../../../public/camisa_2.png'
+import Coat from '../../../public/casaco.png'
 import Buttons from "./Products_components/Buttons/Buttons";
 
 export default function Products() {

@@ -1,9 +1,25 @@
+"use client"
+
 import styles from './Body.module.css'
 import Infos from './Body_components/Infos/Infos'
-import person from '@/../public/pessoa.png'
+import person from '../../../public/pessoa.png'
 import Image from 'next/image'
+import axios from 'axios';
+import { useEffect } from 'react';
+import api from 'services/api';
 
 export default function Body() {
+
+    useEffect(() => {
+        api.get('/products')
+            .then(function (response) {
+                console.log(response.data);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+    }, []);
+
     return (
         <div className={styles.body}>
             <div>
