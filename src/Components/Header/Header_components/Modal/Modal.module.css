@@ -2,6 +2,10 @@
     background-color: rgb(110, 110, 110);
     width: 54.1rem;
     height: 40.5rem;
+    position: relative;
+    /* Or keep it as is if the modal itself is well-styled */
+    z-index: 1010;
+    /* Slightly higher than the overlay to be sure */
 }
 
 .head {

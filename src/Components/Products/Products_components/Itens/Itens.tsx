@@ -6,7 +6,7 @@ import styles from './Itens.module.css'
 interface ProductsProps {
     name: string
     price: number
-    image: StaticImageData
+    image: string
 }
 
 export default function Itens({ name, price, image }: ProductsProps) {
