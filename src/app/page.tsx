@@ -9,24 +9,25 @@ import styles from './page.module.css'
 
 export default function Home() {
 
-  const [open, isOpen] = useState(false);
+  const [open, setOpen] = useState(false);
 
-  const modal = () => {
-    isOpen(true)
-    console.log('oi')
+  const handleModal = () => {
+    setOpen(!open)
   }
 
   return (
     <div>
       <Header
-        onclick={modal}
+        onclick={handleModal}
       />
       <Body />
       <Middle />
       <Products />
       {
         open && (<div className={styles.modal}>
-          <Modal />
+          <Modal
+            close={handleModal}
+          />
         </div>)
       }
     </div>

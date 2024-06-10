@@ -1,6 +1,8 @@
 .placeholder {
     display: flex;
     flex-direction: row;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .swiper {
@@ -11,14 +13,6 @@
 .swiperbuttonprev,
 .swiperbuttonnext {
     margin-top: 12rem;
-    width: 30px;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }

@@ -3,8 +3,6 @@
 import Button from './Header_components/Button/Button'
 import Promo from './Header_components/Promo/Promo'
 import styles from './Header.module.css'
-import { useState } from 'react';
-import Modal from './Header_components/Modal/Modal';
 
 interface HeaderProps {
     onclick: () => void
